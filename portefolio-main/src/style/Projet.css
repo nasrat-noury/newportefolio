@@ -1,0 +1,38 @@
+.ProjetPage {
+  background-color: white;
+  
+}
+
+
+.ProjetCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+ 
+ 
+}
+
+
+
+.ProjCard {
+  width: 600px;
+  height: 500px;
+  padding: 20px;
+}
+
+.CardImage {
+  height: 25vh;
+  
+}
+
+.ProjCard img {
+  width: 100%;
+}
+
+.projet-linkto {
+  text-decoration: none;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+}

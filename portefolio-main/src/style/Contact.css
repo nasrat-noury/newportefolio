@@ -1,0 +1,60 @@
+.containerContact {
+  height: 90vh;
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mailimg {
+
+margin-right: 20px;
+}
+
+.mailcontent {
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneimg {
+
+  margin-right: 20px;
+  
+    
+  
+  }
+
+  .phonecontent {
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+
+  @media screen and (max-width:870px) {
+    .containerContact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cv {
+      display: none;
+    }
+    
+  }
